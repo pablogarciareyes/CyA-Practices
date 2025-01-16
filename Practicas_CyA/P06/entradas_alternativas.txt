@@ -1,0 +1,34 @@
+- Automata
+a b
+7
+5
+5 0 2 & 0 & 2
+0 0 1 a 1
+2 0 2 a 2 b 3
+3 0 2 a 2 b 4
+4 0 2 a 2 & 6
+1 0 3 a 1 b 1 & 6
+6 1 0
+- Cadenas
+abb
+bb
+&
+aabbaa
+bab
+bababa
+bbabba
+- Debe admitir cadenas que empiezen por a o terminen en bb
+
+- Automata
+0 1
+3
+0
+0 0 1 & 1
+1 0 1 & 2
+2 1 2 0 2 1 2
+- Cadenas
+1
+0
+10
+&
+- Todas esas cadenas deberian dar aceptadas
